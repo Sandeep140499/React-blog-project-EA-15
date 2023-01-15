@@ -1,0 +1,214 @@
+
+.container{
+  /* height: 1500px; */
+  border: 1px solid white;
+  border-radius: 0px;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px blue;
+  background-color: #FFFFFF;
+  /* background: rgb(2,0,36); */
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,95,1) 46%, rgba(0,212,255,1) 100%); */
+}
+.Heading{
+  color:white;
+  font-size: 100px;
+  text-shadow: 4px 4px 4px royalblue;
+  /* background-color: black; */
+  height: 150px;
+  text-align: center;
+  font-style: oblique;
+}
+.rotate{
+  transform: rotate(45deg); 
+  background-color: pink;
+  font-style: normal;
+  font-variant: small-caps;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  margin: -25px;  
+}
+.navagator:hover{
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, #333, red,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navagator{
+  text-align: center;
+  width: 1200px;
+  border: 1px;
+  /* border-radius: 40px; */
+  padding: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  /* background-color: lightblue; */
+  margin-left: 350px;
+}
+.linkNav{
+  text-decoration: none;
+  list-style-type: none;
+
+}
+.conatiner{
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 20px;
+  width: 1600px;
+  margin-left: 100px;
+  justify-items: center;
+}
+.conatiner:hover{
+  cursor: pointer;
+}
+#image2{
+  margin-left: 40px;
+}
+#image{
+  margin-top: 300px;
+  margin-left: -650px;
+}
+/* The latest */
+.conatiner2{
+  margin-left: 40px;
+  text-align: center;
+}
+#line{
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin-top: -20px;
+}
+
+
+/* The latest  */
+.container2{
+  display: flex;
+  padding: 20px;
+  width: 1600px;
+  margin-left: 100px;
+}
+.boxes{
+  /* border: 2px solid; */
+  padding: 10px;
+  text-align: center;
+  width: 800px;
+}
+#latestImage{
+  /* margin-left: 100px; */
+}
+.paragraph{
+  text-overflow: ellipsis;
+  font-style: italic;
+}
+
+/* latest article */
+.block{
+  display: block;
+  text-align: center;
+}
+#website{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+}
+.paragraph2{
+  font-size: 100px;
+  
+}
+
+/* topstories */
+#stories{
+  /* margin-top: -20px; */
+}
+
+/* ..................................................Page Bollwood ............................ */
+.bgClip{
+  text-align: center;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bollywooddisplay{
+  display:flex;
+}
+#shah{
+  font-size: 1.5rem;
+  margin-left: 50px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#shah:hover{
+  font-size: 2rem;
+  text-decoration: underline;
+  color: green;
+}
+#bollyparagraph{
+  text-overflow: inherit;
+}
+#bollyline{
+  width: 1000px;
+  margin-left: 0px;
+}
+#advertisment{
+  text-align: center;
+  border: 1px solid lightblue;
+  width: 500px;
+  height: 600px;
+  margin-top: 200px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+#adverclick{
+  text-decoration: none;
+  color: #333;
+}
+
+/* future Technolgy
+ */
+ .futureTech{
+  display: flex;
+  /* border: 1px solid red; */
+ }
+
+ /* fitness  news */
+ #fitn{
+  color: #333;
+  font-weight: bolder;
+  font-size: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+ #fitn:hover{
+  text-decoration: underline;
+  color: blue;
+ }
+
+ #parargraph{
+  margin-top: 90px;
+  margin-left: -200px;
+ }
+
+ /* //fitness */
+ #fitness{
+  color: #333;
+  font-weight: bolder;
+  font-size: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+ }
+
+ /* movies */
+ #movies{
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 30px;
+ }
